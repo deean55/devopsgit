@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginxpod
+  name: nginxwebproxy
   labels:
-    app: nginx
+    app: nginxpod
 spec:
   containers:
     - name: nginx
       image: nginx:latest
       ports:
         - name: nginxport
-        - containerPort: 80
+          containerPort: 80
