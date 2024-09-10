@@ -6,8 +6,8 @@ spec:
   selector:
     app: nginxpod
   ports:  
-  -protocol: TCP
-   port: 80
-   NodePort: 31010
-   targetPort: nginxport
+   - protocol: TCP
+     port: 80
+     NodePort: 31010
+     targetPort: nginxport
   
