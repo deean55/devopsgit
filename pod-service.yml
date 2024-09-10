@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: nginxservice
 spec:
+  type: NodePort
   selector:
-    type: NodePort
     app: nginxpod
   ports:  
    - protocol: TCP
