@@ -4,7 +4,7 @@ metadata:
   name: nginxservice
 spec:
   selector:
-    app: nginx-pod
+    app: nginxpod
   ports:  
   -protocol: TCP
    port: 80
